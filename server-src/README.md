@@ -31,11 +31,9 @@
 
 5. REST API will be exposed on http://localhost:8080/
         
-6. Swagger UI URL: http://localhost:8080/swagger-ui.html
+6. Swagger UI URL: http://localhost:8080/swagger-ui.html, base path: http://localhost:8080/api
 
-7. Swagger UI docs: http://localhost:8080/v2/api-docs
-
-8. Creating the distribution, this command will create a dist folder containing the jar, version.txt and start.sh startup script
+7. Creating the distribution, this command will create a dist folder containing the jar, version.txt and start.sh startup script
 	$./gradlew -x test build
 
 # Eclipse
