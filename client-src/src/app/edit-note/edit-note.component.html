@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="container-heading"><h2 class="heading-margin">Edit Note</h2></div>
+    <div class="container-body">
+    <form  (ngSubmit)="onSubmit(note)" [formGroup]="note" #formDir="ngForm">
+        
+  
+        <div class="form-box form-field-error">
+          <mat-form-field>
+            <input formControlName="title" matInput placeholder="Title*">
+            <span class="error" 
+            *ngIf="note.get('title').touched
+            && note.get('title').hasError('required')">
+              Title is required
+          </span>
+          </mat-form-field>
+
+          <div>
+            <mat-form-field>
+              <textarea formControlName="description" matInput placeholder="Description*"></textarea>
+              <span class="error"
+                    *ngIf="note.get('description').touched
+              && note.get('description').hasError('required')">
+                Description is required
+               </span>
+            </mat-form-field>
+          </div>
+        </div>
+
+        <div class="button-container">
+          <button type="button" mat-raised-button (click)="onCancle()">Cancel</button>
+          <button mat-raised-button type="submit" [disabled]="note.invalid">Update</button>
+        </div>
+        
+       
+        </form>
+      </div>
+  </div>

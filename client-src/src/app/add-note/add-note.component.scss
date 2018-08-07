@@ -1,0 +1,133 @@
+
+.description {
+  margin: 20px 0;
+}
+.description label {
+  color: #111111;
+  font-weight: bold;
+  font-size: 15px;
+  display: inline-block;
+  margin-bottom: 17px;
+}
+.description .error, .error{
+  color: #ff1010;
+  font-size: 12px;
+  padding-top: 10px
+} 
+.img-container{
+  width: 100%;
+  /* -webkit-box-sizing: border-box; */
+  box-sizing: border-box;
+  float: left;
+  margin: 14px 0px;
+  padding: 15px 15px 5px 15px !important;
+  background: #fff;
+  border: 1px dashed #bfbcbc;
+  min-height: 60px;
+}
+.img-multiple{
+  cursor: pointer;
+  margin-bottom: 12px!important;
+  float: left;
+  border: 1px solid #c1c1c1;
+  padding: 5px 10px;
+  min-width: 120px;
+  position: relative;
+  text-align: center;
+  background: #fff;
+  color: #33b7fc;
+  border-radius: 2px;
+  margin-right: 14px;
+}
+.img-multiple label{
+  float: right;
+  color: gray;
+  cursor: pointer;
+  font-size: 11px;
+  padding: 3px 5px;
+  margin-bottom: -2px;
+  font-weight: 600;
+}
+.upload-file-container{
+  width:100%;
+  float:left;
+  padding: 10px 0px;
+}
+.left-container-upload{
+  width:55%;
+  float:left;
+}
+.upload-title{
+  color: #111111;
+  font-weight: bold;
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.light-color{
+  color: #c5c5c5;
+  margin-right: 6px;
+}
+.right-container-upload{
+  width:45%;
+  float:right;
+
+}
+
+
+.upload-button {
+  float: right;
+}
+
+.upload-button a {
+  text-decoration: none;
+  padding: 10px 27px;
+  /*background-color: #33b7fc;*/
+  background-color: #205081;
+  color: #fff;
+  border-radius: 5px;
+}
+.ql-editor{
+  height: 150px;
+  overflow-y: scroll;
+}
+.edit-article-details {
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.user-article-details {
+  float: left;
+  width: 50%;
+}
+.edit-article-details .mat-form-field {
+  width: 100%;
+}
+
+
+.user-checkbox {
+  float:right;
+}
+
+.x-icon {
+  top:0;
+  right:0;
+  font-size: 10px;
+}
+@media (max-width: 1025px) {
+  .user-checkbox {
+    float:left;
+    margin-top: 15px;
+  }
+  
+  .user-article-details {
+    width: 100%;
+  }
+  
+  .upload-button a{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+}

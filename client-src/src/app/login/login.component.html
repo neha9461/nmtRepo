@@ -1,0 +1,59 @@
+<div class="login_page">
+     <div class="company_logo">
+       <h1 class="heading ">Note Management Tool</h1>
+     </div>
+
+<div class="login-body">
+<!--><div class="app-header">
+    <h1 class="heading ">NMT Prototype</h1>
+</div>-->
+<!-- Application header ends -->
+ <div >
+<!--<mat-grid-list cols="3">-->
+   <!-- <mat-grid-tile></mat-grid-tile>-->
+ 
+    <!-- Writing markup for login starts -->
+    <!--<mat-grid-tile class="login-element">-->
+        <div class="login-container">
+ 
+            <!-- Template Header starts -->
+            <div class="login-box-header">
+                <span>Login</span>                 
+            </div>
+            <!-- Template Header ends -->
+ 
+            <!-- Template Body starts -->
+            <div class="login-box-body ">
+                <form class="example-form" name="form" >
+                    <mat-form-field class="example-full-width">
+                        <label>Email</label>
+                        <input matInput type="email" name="username" [(ngModel)]="model.username" #username="ngModel" required>
+                    </mat-form-field>
+
+                    <mat-form-field class="example-full-width">
+                        <label>Password</label>
+                        <input matInput type="password" class="form-control" name="password" [(ngModel)]="model.password" #password="ngModel" required>
+                    </mat-form-field>
+                    
+                    <div class="login-button" (click)="login()">
+                        <button mat-raised-button color="primary" class="login-button">
+                          Login
+                         </button>
+                    </div>
+
+                  <div class="login-button" (click)="signUp()">
+                    <button mat-raised-button color="primary" class="login-button">
+                      SignUp
+                    </button>
+                  </div>
+
+                  <div class="login-forgot">
+                        <a routerLink="/forgot-password"> Forgot Password?</a>
+                  </div>
+            </form> 
+        </div>
+        </div>
+</div>
+</div>
+</div>
+

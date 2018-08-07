@@ -1,0 +1,74 @@
+{
+	"user-1":  {
+            "id": "1",
+            "email": "sss@gmail.com",
+            "lastName": "ashish",
+            "firstName": "ashish",
+            "password":"password@123"
+        },
+   "user-2":  {
+            "id": "2",
+            "email": "rrr@gmail.com",
+            "lastName": "rohan",
+            "firstName": "sahu",
+            "password":"password@123"
+        },
+   "user-3":  {
+            "id": "5a922af61645604bc8f43b80",
+            "email": "kkk@gmail.com",
+            "lastName": "Rakshit",
+            "firstName": "Rakshit",
+            "password":"password@123"
+        },
+   "user-4": {
+         "id": "5a9fef1661f02d2f6c932a80",
+         "email": "lll@gmail.com",
+         "lastName": "Sachin",
+         "firstName": "Sachin",
+         "password": "password@123"
+   },
+  "user-5":  {
+          "id": "5a9fef0dfdad16d3a1f3e37f",
+          "email": "admin@gmail.com",
+          "lastName": "test",
+          "firstName": "admin",
+          "password":"password@123"
+   },
+  "user-6":  {
+          "id": "5a9fef1661f02d2f6c932a80",
+          "email": "mmm@gmail.com",
+          "lastName": "Koti",
+          "firstName": "Koti",
+          "password":"password@123"
+  },
+  "user-7":  {
+          "id": "5a9fef1661f02d2f6c932a80",
+          "email": "mmm@gmail.com",
+          "lastName": "Koti",
+          "firstName": "Koti",
+          "password":"password@123"
+     }
+     ,
+  "user-8":  {
+          "id": "5a9fef1661f02d2f6c932a80",
+          "email": "mmm@gmail.com",
+          "lastName": "Koti",
+          "firstName": "Koti",
+          "password":"password@123"
+     },
+   "user-9": {
+         "id": "5a9fef1661f02d2f6c932a80",
+         "email": "lll@gmail.com",
+         "lastName": "Sachin",
+         "firstName": "Sachin",
+         "password": "password@123"
+   }
+   ,
+   "user-10": {
+         "id": "5a9fef1661f02d2f6c932a80",
+         "email": "lll@gmail.com",
+         "lastName": "Sachin",
+         "firstName": "Sachin",
+         "password": "password@123"
+   }
+}

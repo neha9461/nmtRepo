@@ -1,0 +1,92 @@
+.description p{
+text-align: justify;
+}
+.description {
+        float: left;
+        width: 100%;
+        font-size:13px;
+    }
+.description{
+
+    }
+.left-container label {
+    color: #111111;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    width: 200px;
+}
+.left-container span {
+    color: #111111;
+}
+.left-container{
+    float: left;
+    padding: 20px;
+    width: 96%;
+}
+.left-container div{
+    margin-bottom:20px 
+    }
+.container-heading {
+    position: relative;
+}
+
+  .edit {
+    position: absolute;
+    top: 9px;
+    padding: 3px 4px;
+    right: 7px;
+   /* background: #33b7fc;*/
+    border: none;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+
+textarea.mat-input-element {
+    resize: none;
+    border-radius: 2px;
+    height: 100px;
+    border: 1px solid #c7c7c7;
+}
+
+.mat-form-field-label-wrapper {
+    font-size: 14px!important;
+    margin: 4px 10px!important;
+}
+
+
+.img-container{
+    float: left;
+    padding-top: 17px;
+}
+.img-multiple{
+    cursor: pointer;
+    margin-bottom: 12px!important;
+    float: left;
+    border: 1px solid #c1c1c1;
+    padding: 5px 10px;
+    min-width: 120px;
+    text-align: center;
+    background: #fff;
+    color: #33b7fc;
+    border-radius: 2px;
+    margin-right: 14px;
+}
+
+
+.article_view{
+    float: left;
+    width: 100%;
+    padding: 25px 0;
+}
+
+@media (max-width: 1023px) {
+    .article_view{
+        width: 90%;
+        padding: 0;
+    }
+    .left-container{
+        width: 100%;
+    }
+}

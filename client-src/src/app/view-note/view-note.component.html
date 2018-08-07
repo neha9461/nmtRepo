@@ -1,0 +1,33 @@
+<div class="container" *ngIf="note!=undefined">
+  <div class="container-heading">
+    <p class="heading-margin">{{note.title}} <sub><span class="articleby"> by {{note.createdBy.firstName}}  {{note.createdBy.lastName}} {{note.createdTime |  date: 'MM/dd/yyyy hh:mm a' }} </span></sub></p>
+    
+    <a  class="edit" *ngIf="(currentUserId == note.createdBy.id)" (click)="onTapNavigation('../../edit', note.id)">
+      <img src="/assets/images/edit.png" alt="articleicon"class="menu-icon">
+     </a>
+  </div>
+  
+  <div class="container-body article_view">
+      <div class="left-container">
+          <div class="reviewed">
+            <label>Title</label>
+            <span>{{note.title}}</span>
+          </div>
+        <div class="reviewed">
+          <label>Created Date</label>
+          <span>{{note.createdTime |  date: 'MM/dd/yyyy hh:mm a'}}</span>
+        </div>
+        <div class="reviewed">
+          <label>Last modified Date</label>
+          <span>{{note.lastModifiedTime |  date: 'MM/dd/yyyy hh:mm a'}}</span>
+        </div>
+          <div class="description">
+              <label>Description</label>
+              <p class="description" [innerHTML]="note.description"></p>
+          </div>
+    
+      </div>
+    
+      
+    </div>
+</div>
