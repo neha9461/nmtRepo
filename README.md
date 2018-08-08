@@ -25,11 +25,12 @@ I have named the application as "Note Management Tool". It is a bootstraped appl
     * Hibernate
     * MongoDB
     * JUnit
- *Deployemnt/Server
-   *MLAB
-   *Heroku
- *Build Tool
-   *Gradle
+ * Deployment/Server
+    * MLAB
+    * Heroku
+ * Build Tool
+    * Gradle
+ 
     
 ## Troublesooting
    * If you are unable to access https://appnmt.herokuapp.com/login, install tomcat and deploy the war file in it. After that Note Management Tool will be up and running at:  http://localhost:8080/login
