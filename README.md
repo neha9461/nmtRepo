@@ -1,31 +1,35 @@
 # Note Management Tool
 
 ## Introduction
-I have named the application as "Note Management Tool".
+I have named the application as "Note Management Tool". It is a bootstraped application which is adtaptive to different screen sizes on web and mobile both.
 
-## You need to install tomcat and deploy the war file in it. After that Note Management Tool will be up and running at: 
-
-Application URL: http://localhost:8080/login
+## Application URL: https://appnmt.herokuapp.com/login
 
 
 ## User Workflow
 
-* Signup as a new user. you will get an email after succsfull signup.
+* Signup as a new user. you will get an email after successful signup.
 * Login with your credentials.
 * Add a note using "add Note" Button.
-* To edit and delete note, click on edit amd delete buttons respectively.
-* To view the detais of a note, click on the note.
-* If you have forgotton your password, a new password will be sent to you by "Forgot password" option.
+* To edit and delete note, click on edit and delete buttons respectively.
+* To view the details of a note, click on the note.
+* If you forget your password, a new password will be sent to you by "Forgot password" option.
 
 ## Technology Stack
 
 * Front End
-    * Angular JS
+    * Angular
     * Jasmine with Karma
 * Back End/API Server
     * Spring
     * Hibernate
     * MongoDB
     * JUnit
+ *Deployemnt/Server
+   *MLAB
+   *Heroku
+ *Build Tool
+   *Gradle
     
- All the technologies considered here are open-source and do not require license purchasal
+## Troublesooting
+   * If you are unable to access https://appnmt.herokuapp.com/login, install tomcat and deploy the war file in it. After that Note Management Tool will be up and running at:  http://localhost:8080/login
